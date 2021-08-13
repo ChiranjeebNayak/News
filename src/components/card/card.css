@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.card{
+    width:25vw;
+    border: 1px solid rgba(32, 252, 3, 0.849);
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card .card-title {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+.card .card-image{
+    text-align: center;
+    margin: 10px;
+}
+.card .card-image img{
+    width:20vw;
+    height: 25vh;
+}
+.card .card-content{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+.card .card-content::after{
+    content: "......";
+}
+
+
+
+
